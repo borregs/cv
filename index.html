@@ -7,22 +7,27 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="./styles.css">
     <!--p>We reserve the right; at our discretion, to verify your details whilst you use this website, we also reserve the right to update or revise this privacy policy at any time </p-->
     
     <style>
       html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     </style>
-    <iframe height=2px width=100% > <!--p>We reserve the right; at our discretion, to verify your details whilst you use this website, we also reserve the right to update or revise this privacy policy at any time </p--></iframe>
+    <iframe height=2px width=100% > 
+    <!--p>We reserve the right; at our discretion, to verify your details whilst you use this website, we also reserve the right to update or revise this privacy policy at any time </p-->
+    </iframe>
   </head>
 <body class="w3-light-grey">
-  <label class="switch">
-            <input type="checkbox" id="togBtn">
-            <div class="slider round">
-                <span language='japanese' class="on">JPN</span>
-                <span language='english' class="off">ENG</span>
-            </div>
-        </label>
+<!-- Language Slider -->
+<center>
+	<div class="switch">
+	    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" onClick="ascript()">
+	    <label for="language-toggle"></label>
+	    <span class="on">ES</span>
+	    <span class="off">EN</span>
+  	</div>
+ </center>  
+   
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
  <!-- The Grid -->
@@ -270,8 +275,10 @@
   <i class="fa fa-github w3-hover-opacity"><a href="https://www.github.com/borregs">borregs</a></i>
   <i class="fa fa-linkedin w3-hover-opacity"><a href="https://www.linkedin.com/in/mborrego94/">mborrego94</a></i>
 </footer>
-
-
-
 </body>
+<script type="text/javascript">
+	function ascript() {
+		window.location.href= "./EN_us/index.html"
+	}
+</script>
 </html>
