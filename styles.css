@@ -106,4 +106,16 @@ input.check-toggle-round-flat:checked + label {
 input.check-toggle-round-flat:checked + label:after {
   margin-left: 44px;
 }
-
+/*Neoo*/
+.background-svgb{
+   /* Add dimentions to span */
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   /* Add background image */
+   background-image: url('https://api.iconify.design/simple-icons/binance.svg');
+   color: #23009688;  
+   center: center;
+   no-repeat: no-repeat;
+   contain: contain;
+}
