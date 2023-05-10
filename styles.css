@@ -106,3 +106,5 @@ input.check-toggle-round-flat:checked + label {
 input.check-toggle-round-flat:checked + label:after {
   margin-left: 44px;
 }
+
+background: url('https://api.iconify.design/simple-icons/binance.svg?color=%23009688') no-repeat center center / contain;
