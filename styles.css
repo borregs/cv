@@ -112,10 +112,13 @@ input.check-toggle-round-flat:checked + label:after {
    display: inline-block;
    width: 25px;
    height: 25px;
+   color: #009688;  
    /* Add background image */
    background-image: url('https://api.iconify.design/simple-icons/binance.svg');
-   background-color: #23009688;  
    background-size: 100% 100%;
    background-repeat: no-repeat;
-  
 }
+.svgb-icon{
+  content: url('https://api.iconify.design/simple-icons/binance.svg?color=%23009688&width=25&height=25');
+}
+
